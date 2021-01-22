@@ -12,7 +12,7 @@ def pres():
     print(" ________________________________")
     print("|                                |")
     print("|                                |")
-    print("|           PTOOL v1.0           |")
+    print("|           PTOOL v0.1           |")
     print("|        Made by WrkEagle        |")
     print("|                                |")
     print("|________________________________|")
@@ -91,7 +91,7 @@ def exploit():
         print("****You are responsible of your acts with this program****")
        # yn = input("Do you want to continue? 1/0: ")
         #if yn == '1' :
-        print(os.system(' python3 hammer.py'))
+        #print(os.system(' python3 hammer.py'))
        # else :
             #print("going back")
            # NETWORK()
