@@ -91,7 +91,10 @@ def exploit():
         print("****You are responsible of your acts with this program****")
        # yn = input("Do you want to continue? 1/0: ")
         #if yn == '1' :
-        #print(os.system(' python3 hammer.py'))
+        vip = input("\nTarget's ip address :")
+        vport = input("\nTarget's port: ")
+        turbo = input("\nTurbo mode: (default 135)")
+        print(os.system('python3 hammer.py -s  '))
        # else :
             #print("going back")
            # NETWORK()
